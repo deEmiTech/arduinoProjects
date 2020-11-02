@@ -14,4 +14,4 @@ expected '}' before 'else'
 ```
 O problema é que na verdade não quero fechar a chave porque se fechar, este `else if` sairá de dentro de um outro `if`
 
-Por Favor se tiver alguma sugestão faça um pull request. Agradeço desde já.
+Agradeço sugestões desde já.
