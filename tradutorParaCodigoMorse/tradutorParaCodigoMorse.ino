@@ -66,7 +66,7 @@ void flashSequence(char letter)
  while(letter[i] != '/0')
  {
   flashDotOrDash(letter[i]);
-  delay(dotDelay);    //  espaco entre flashes
+  delay(dotDelay);    //  espera entre flashes
   i++; 
  }
  delay(dotDelay * 3); //  espera entre letras
@@ -83,7 +83,7 @@ void flashDotOrDash(char dotOrDash)
   }
   else if(dotOrDash == '-')
   {
-    delay(dotDelay * 3);  //  traco
+    delay(dotDelay * 3);  //  traço
   }
   pinMode(ledpin, LOW);
 }
